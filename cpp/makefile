@@ -1,5 +1,5 @@
 format:
-	clang-format -i -style=file **/*.cpp
+	clang-format -i -style=file **/*.cpp **/*.h
 
 cleanup:
 	rm -f **/*.o **/*.s **/out
